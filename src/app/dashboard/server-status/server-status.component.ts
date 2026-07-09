@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DashboardItemComponent } from '../dashboard-item/dashboard-item.component';
 
 @Component({
   selector: 'app-server-status',
@@ -9,5 +8,5 @@ import { DashboardItemComponent } from '../dashboard-item/dashboard-item.compone
   styleUrl: './server-status.component.css',
 })
 export class ServerStatusComponent {
-  currentStatus = 'online';
+  currentStatus = 'unknown';
 }

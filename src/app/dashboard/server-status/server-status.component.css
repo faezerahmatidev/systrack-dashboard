@@ -19,7 +19,7 @@
 }
 
 .status-unknown p:first-of-type {
-  color: grey;
+  color: #dfee0a;
 }
 
 p:last-of-type {
