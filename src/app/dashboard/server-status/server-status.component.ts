@@ -4,7 +4,7 @@ import { DashboardItemComponent } from '../dashboard-item/dashboard-item.compone
 @Component({
   selector: 'app-server-status',
   standalone: true,
-  imports: [DashboardItemComponent],
+  imports: [],
   templateUrl: './server-status.component.html',
   styleUrl: './server-status.component.css',
 })
