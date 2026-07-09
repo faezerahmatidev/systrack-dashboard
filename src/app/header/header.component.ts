@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { EButtonComponent } from '../shared/e-button/e-button.component';
+import { ButtonComponent } from '../shared/button/button.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [EButtonComponent],
+  imports: [ButtonComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
