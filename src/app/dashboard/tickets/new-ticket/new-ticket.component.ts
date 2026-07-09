@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ButtonComponent } from '../../../shared/button/button.component';
-import { NgClass } from '../../../../../node_modules/@angular/common/index';
 import { ControlComponent } from '../../../shared/control/control.component';
 
 @Component({
